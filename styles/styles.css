@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1c0193+1,a849a3+100 */
+    background: #1c0193; /* Old browsers */
+    background: -moz-linear-gradient(top, #1c0193 1%, #a849a3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1c0193 1%,#a849a3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1c0193 1%,#a849a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.hero {
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.hero p {
+    animation-name: nameFade;
+    animation-duration: 4s;
+}
+
+.logos {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 250px;
+    animation-name: nameFade;
+    animation-duration: 4s;
+}
+
+.logos svg {
+    transition: transform 0.8s;
+}
+
+.logos svg:hover {
+    transform: scale(1.5,1.5);
+}
+
+.middle {
+    margin: 0 15px;
+}
+
+svg {
+    width: 70px;
+    height: 70px;
+}
+
+.path {
+    fill: #ffffff;
+}
+
+.treeline {
+    position: fixed;
+    bottom: 0;
+}
+
+.treeline img {
+    width: 100%;
+}
+
+@keyframes nameFade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
